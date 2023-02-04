@@ -39,8 +39,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #fff;
-  opacity: 0.51;
+  background-color: #aaa;
+  opacity: 0;
   z-index: 2;
 }
 
@@ -55,20 +55,20 @@ body {
   top: 0;
   right: 15px;
   left: 15px;
-  padding: 13px 22px 10px 184px;
-  background-color: #fff7f7;
+  padding: 13px 22px 10px 160px;
+  background-color: #fafdff;
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
   z-index: 1;
 }
 
 #player-track.active {
-  top: -92px;
+  top: -91px;
 }
 
 #album-name {
   color: #54576f;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -96,14 +96,14 @@ body {
 #track-length {
   color: transparent;
   font-size: 11px;
-  background-color: #ffe8ee;
+  background-color: #e0ecff;
   border-radius: 10px;
   transition: 0.3s ease all;
 }
 
 #track-time.active #current-time,
 #track-time.active #track-length {
-  color: #f86d92;
+  color: #61a0ff;
   background-color: transparent;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 #s-area {
-  background-color: #ffe8ee;
+  background-color: #e1edfc;
   cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ body {
   bottom: 0;
   left: 0;
   width: 0;
-  background-color: #fd6d94;
+  background-color: #6aa4fc;
   transition: 0.2s ease width;
   z-index: 1;
 }
@@ -180,7 +180,7 @@ body {
 
 #album-art.active {
   top: -60px;
-  box-shadow: 0 0 0 4px #fff7f7, 0 30px 50px -15px #afb7c1;
+  box-shadow: 0 0 0 4px #e6eefa, 0 30px 50px -15px #6aa4fc;
 }
 
 #album-art:before {

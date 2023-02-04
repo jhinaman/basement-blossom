@@ -30,25 +30,28 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Dawn",
-      "Me & You",
-      "Electro Boy",
-      "Home",
+      "A Devil's Touch in the Midwest",
+      "Let's Dance in the Dirt!",
+      "A Bird's Last Look",
+      "Middle of Nowhere",
       "Proxy (Original Mix)"
     ],
     trackNames = [
-      "Skylike - Dawn",
-      "Alex Skrindo - Me & You",
-      "Kaaze - Electro Boy",
-      "Jordan Schor - Home",
+      "Macabre Plaza",
+      "Macabre Plaza",
+      "Macabre Plaza",
+      "Macabre Plaza",
       "Martin Garrix - Proxy"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
     trackUrl = [
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/2.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
+      "https://jhinaman.github.io/basement-blossom/A Devil's Touch in the Midwest.mp3",
+      
+      "https://jhinaman.github.io/basement-blossom/Let's Dance in the Dirt!.mp3",
+      
+      "https://jhinaman.github.io/basement-blossom/A Bird's Last Look.mp3",
+      
+      "https://jhinaman.github.io/basement-blossom/Middle of Nowhere.mp3",
       "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
